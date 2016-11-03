@@ -388,4 +388,22 @@ function calcDown (x, y)
 }
 
 
+function swap (position) {
+
+	var temp = div[position].style.top;
+
+	div[position].style.top = areaY;
+
+	areaY = temp;
+
+
+
+	temp = div[position].style.left;
+
+	div[position].style.left = areaX;
+
+	areaX = temp;
+
+}
+
 
